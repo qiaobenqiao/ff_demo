@@ -14,7 +14,7 @@
     <div class="content">
         <img src="./images/id.jpg" alt="" class="id">
 		<input id="school" type="button" onclick="input_school()" value="东环路大门" />
-        <input id="name" type="button" onclick="input_name()" value="张志远" />
+        <input id="name" type="button" onclick="input_name()" value="林虹霞" />
         <input id="classes" type="button" onclick="input_classes()" value="2018级计算机类03班" />
     </div>
 	
@@ -32,7 +32,7 @@
     <script>
     function input_name() {
         var username = prompt("输入姓名");
-        var text = document.getElementById("name", "张志远");
+        var text = document.getElementById("name", "林虹霞");
         if(username != "" && username != undefined && username != null) {
             text.value = username;
             localStorage.lastusername = username;
